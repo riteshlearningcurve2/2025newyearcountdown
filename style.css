@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Rubik+Glitch+Pop&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+  background-image: url(./images/new_year.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  font-family:"Honk", system-ui;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+h1{
+    font-weight: normal;
+    font-size: 50px;
+    color: burlywood;
+}
+
+#countdown
+{
+    display: flex;
+    transform: scale(2);
+}
+
+.time
+{
+    margin: 15px;
+}
+
+.time h2{
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0 0 1px;
+    line-height: 0.7;
+}
+
+
+@media(max-width:600px)
+{
+    h1{
+        font-size: 45px;
+        
+    }
+    .time{
+        margin: 5px;
+    }
+    .time h2
+    {
+        font-size: 12px;
+    }
+    .time p{
+        font-size: 10px
+    };
+}
+
+
